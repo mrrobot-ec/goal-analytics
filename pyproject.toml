@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "preproccessing"
+version = "0.1.0"
+description = "Datamining project #1"
+authors = ["Andrés Campoverde"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.26.4"
+pandas = "^2.2.0"
+scikit-learn = "^1.4.0"
+seaborn = "^0.13.2"
+nltk = "^3.8.1"
+matplotlib = "^3.8.2"
+pyarrow = "^15.0.0"
+plotly = "^5.18.0"
+
+[tool.poetry.dev-dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
